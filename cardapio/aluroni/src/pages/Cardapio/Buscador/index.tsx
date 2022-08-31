@@ -12,7 +12,8 @@ export default function Buscador({busca,setBusca}:Props){
             <input
                 value={busca}
                 onChange={evento => setBusca(evento.target.value)}
-            />
+                placeholder="Buscar"
+           />
             <CgSearch
             size={20}
             color="#4c4d5e" />
