@@ -1,9 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 body {
     line-height: 1;
@@ -14,4 +10,10 @@ body {
 *{
   box-sizing: border-box;
   font-family:"Italiana", serif;
+}
+
+#root > main.container{
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
 }
